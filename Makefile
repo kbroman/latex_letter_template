@@ -1,2 +1,2 @@
-letter.pdf: letter.tex UWletterdefs.tex UWlogo.png customize-name-etc.tex
+letter.pdf: letter.tex UWletterdefs.tex UWlogo.png kbroman_sig.jpg
 	pdflatex letter
