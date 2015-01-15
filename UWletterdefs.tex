@@ -88,6 +88,13 @@
 
 \hypersetup{pdfpagemode=UseNone} % don't show bookmarks on initial view
 
+% reformat date as 15 Jan 2015
+\usepackage[UKenglish]{datetime}
+\newdateformat{UKvardate}{%
+\THEDAY\ \shortmonthname[\THEMONTH] \THEYEAR}
+\UKvardate
+
+
 \AtBeginDocument{
     % Text lines should be less than 6in long
     \newgeometry{top=2.4in,left=1.25in,bottom=1.2in,right=1.25in}
